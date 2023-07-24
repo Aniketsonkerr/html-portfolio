@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>watchmymovies</title>
+</head>
+<header>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <nav class="navbar">
+        <h1 class="title">watchmymovies</h1>
+        <hr>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Genres</a></li>
+            <div class="search" >
+                <input type="text" name="search" class="search" id="search" placeholder="search movie">
+            </div>
+        </ul>
+    </nav>
+    <style>
+        .navbar{
+            background-color: rgb(230, 94, 121);  
+            border-radius: 15px;
+               }
+        .navbar ul{
+            overflow: auto;
+        }    
+        .navbar li{
+            list-style:none ;
+            float: left;
+            margin: 15px;
+            padding: 12px;
+         
+        }
+        .navbar li a{
+            color: antiquewhite;
+            font-family: 'DM Sans', sans-serif;
+            font-size: larger;
+            text-decoration-style: solid;
+           text-decoration: none;
+        }
+        .search{
+            float: right;
+            margin: 10px;
+            border-radius: 10px;
+            border-color: antiquewhite;
+            padding: 5px;
+        }
+        .navbar li :hover{ 
+            color:white;
+            background-color:rgb(212, 10, 94);
+            border: 2px solid rgb(255, 255, 255);
+            border-radius: 10px;
+            padding: 10px;
+        }
+        .title{
+            font-family: 'DM Sans', sans-serif;
+            background-color: rgb(230, 94, 121);
+            padding: 20px;
+            border-radius: 15px;
+            color: aliceblue;
+            margin-bottom: 5px;
+        }
+
+       
+       
+    </style>
+</header>
+<body>
+    <main style="background-image: url(background.jpg); overflow: auto; border-radius: 15px;">
+        <div class="container">
+        <h1 class="heading">
+            Your favorite channels all in one place
+        </h1>
+        <p1>With Prime Video Channels, find shows and movies from your favorite channels all in one place. Enjoy with an add-on subscription to Channels of your choice</p1>
+        </div>
+    <div class="btn" >
+      <button class="btn">Netflix</button>
+      <button class="btn">Prime</button>
+      <button class="btn">Lionsgate</button>
+      <button class="btn">Hulu</button>
+    </div>
+    <style>
+        .container{
+            width: 500px;
+            margin: auto;
+            font-family:'DM Sans', sans-serif ;
+            color: aliceblue;
+           }
+        .btn{
+            width: 800px;
+            margin: auto;
+            padding: 10px;
+            border-radius: 30px;
+            font-size: larger;
+            color:rgb(0, 0, 0); 
+            border-color: aliceblue;
+            border: none;
+            margin-bottom: 10px;
+        }
+        .btn :hover{
+            color:white ;
+            background-color: rgb(230, 94, 121);
+        }
+    </style>
+    </main>  
+</body>
+</html>

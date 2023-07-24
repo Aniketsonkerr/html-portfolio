@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(222, 228, 238);
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.navbar{
+    background-color: white;
+    margin-top: -15px;
+    display: grid;  
+    margin-top: 0px;
+}
+.navbar ul{
+    overflow: auto;
+    margin-left: -48px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 13px 20px;
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    font-size: 2rem;
+    align-items: center;
+    list-style: none;
+}
+img{
+    width: 36px;
+}
+.search{
+    border: none;
+    margin-top: 5px;
+    font-size: 18px;
+    background-color:rgb(222, 228, 238) ;
+    border-radius: 20px;
+}
+.navbar li a :hover{
+    background-color: rgb(211, 220, 228);
+    border-radius: 20px;
+    padding: 4px;
+}
+.container{
+    background-color: white;
+    text-decoration: none;
+    padding-right: 27px;
+    padding-bottom: 19px;
+    padding-left: 18px;
+    border-radius: 20px;
+    
+}
+.container ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    text-decoration: none;
+}
+.container ul li {
+    padding: 5px;
+    text-decoration: none;
+    list-style: none;
+}
+.menu{
+    display: flex;
+    width: min-content;
+    align-items: baseline;
+    margin-top: 61px;
+    margin-left: -259px;
+    text-decoration: none;
+}
+.email{
+    font-size: 14px;
+    padding: 16px;
+    width: 184px;
+    border-radius: 12px;
+    border: none;
+    background-color: rgb(216, 226, 235);
+}
+.profilepic{
+    height: 40px;
+    margin-left: -47px;
+}
+.container li a{
+    text-decoration: none;
+    font-size: larger;
+    color: rgb(133, 119, 218);
+    padding: 2px;
+}
+.container li a :hover{
+    background-color: rgb(133, 119, 218);
+    color: white;
+    cursor: pointer;
+}
+.btn{
+    
+}
